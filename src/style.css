@@ -19,6 +19,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -49,9 +50,11 @@ h1 {
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.vanilla:hover {
   filter: drop-shadow(0 0 2em #3178c6aa);
 }
@@ -75,9 +78,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -88,10 +93,45 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
+}
+
+.app-container {
+  padding: 40px 30px;
+  width: 100vw;
+  height: calc(100vh - 80px);
+  background: url('../images/bg.jpg');
+  background-size: cover;
+}
+
+.img-container {
+  margin-top: 40px;
+  margin: 0 auto;
+  width: 800px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  padding: 20px;
+  border: solid 15px #555;
+
+  box-shadow: -12px -12px 24px #000000, inset -3px -3px 9px #000000;
+}
+
+.img {
+  display: block;
+  object-fit: contain;
+  outline: 2px solid white;
+  width: 100%;
+
+  background: url('../images/sunny.jpg');
+  background-repeat: no-repeat;
+  background-position: 0% 00%;
+  background-clip: content-box;
+  background-size: 100%;
 }
