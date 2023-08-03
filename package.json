@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build --base=/weather-app/",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
@@ -18,7 +18,9 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
+    "axios": "^1.4.0",
     "gh-pages": "^5.0.0",
+    "modern-normalize": "^2.0.0",
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"
   }
