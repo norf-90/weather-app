@@ -4,5 +4,5 @@ import FullReload from 'vite-plugin-full-reload';
 
 export default defineConfig({
   base: '/weather-app/',
-  plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
+  plugins: [injectHTML()],
 });
