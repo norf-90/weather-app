@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://api.weatherapi.com/v1/';
+axios.defaults.baseURL = 'https://api.weatherapi.com/v1/';
 const API_KEY = 'e61c823b290b48f284472748230308';
 console.log(API_KEY);
 
