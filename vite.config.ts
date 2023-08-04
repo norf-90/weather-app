@@ -7,6 +7,6 @@ export default defineConfig({
     outDir: './dist',
   },
   // root: './src',
-  base: '/weather-app/',
+  // base: '/weather-app/',
   plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
 });
