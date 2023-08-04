@@ -47,3 +47,9 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+
+      - name: List directory contents
+        run: ls -R ./dist
+
+      - name: Debug deploy process
+        run: echo "Deploying to GitHub Pages"
