@@ -4,9 +4,9 @@ import FullReload from 'vite-plugin-full-reload';
 
 export default defineConfig({
   build: {
-    outDir: '../dist',
+    outDir: './dist',
   },
-  root: 'src',
+  // root: './src',
   base: '/weather-app/',
   plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
 });

@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --base=/weather-app/",
+    "build": "tsc && vite build ",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
